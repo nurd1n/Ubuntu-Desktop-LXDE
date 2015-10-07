@@ -61,10 +61,10 @@ wget https://bootstrap.pypa.io/ez_setup.py -O - | python
 apt-get update
 #install progressbar
 cd /
-wget http://moviestreamfullhd.com/script/progressbar-2.3.tar.gz
-tar xf progressbar-2.3.tar.gz
-rm -f progressbar-2.3.tar.gz
-cd progressbar-2.3
+wget https://pypi.python.org/packages/source/p/progressbar2/progressbar2-2.7.3.tar.gz --no-check-certificate
+tar xf progressbar2-2.7.3.tar.gz
+rm -f progressbar2-2.7.3.tar.gz
+cd progressbar2-2.7.3
 python setup.py install
 apt-get update
 #install firefox

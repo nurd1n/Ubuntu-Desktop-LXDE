@@ -5,6 +5,7 @@ Ubuntu Desktop LXDE Version 1.01 for ubuntu server 15.xx 64 bit
 Built in :
 - Ffmpeg
 - Sox
+- Unzip
 - Gdata
 - Youtube Uploader
 - Youtube Downloader (youtube-dl)

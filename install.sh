@@ -45,7 +45,6 @@ wget https://github.com/google/gdata-python-client/archive/master.zip --no-check
 unzip master.zip
 rm -f master.zip
 cd gdata-python-client-master
-ls INSTALL.txt MANIFEST PKG-INFO README.txt RELEASE_NOTES.txt pydocs samples setup.py src tests
 python setup.py install
 apt-get update
 #install youtube uploader
@@ -54,7 +53,6 @@ wget https://github.com/nurd1n/Youtube-Upload/archive/master.zip --no-check-cert
 unzip master.zip
 rm -f master.zip
 cd Youtube-Upload-master
-ls CHANGELOG README bin examples setup.py youtube_upload
 python setup.py install
 apt-get update
 #install setup tools python
@@ -81,14 +79,14 @@ apt-get update
 #install youtube-dl
 easy_install youtube-dl
 #install bleachbit as ccleaner
-sudo apt-get install bleachbit
+apt-get install bleachbit
 #install gedit
-sudo apt-get install gedit
+apt-get install gedit
 #install terminator
-sudo apt-get install terminator
+apt-get install terminator
 #install filezilla
-sudo apt-get install filezilla
-sudo apt-get update
+apt-get install filezilla
+apt-get update
 echo "########################################################################"
 echo "#################             Install Complete         #################"
 echo "########################################################################"

@@ -4,6 +4,7 @@
 ##  Built in :
 ##  - Ffmpeg
 ##  - Sox
+##  - Unzip
 ##  - Gdata
 ##  - Youtube Uploader
 ##  - Youtube Downloader (youtube-dl)
@@ -36,23 +37,23 @@ apt-get update
 #install sox
 apt-get install sox
 apt-get install libsox-fmt-mp3
+#install unzip
+apt-get install unzip
 #install gdata
 cd /
 wget https://github.com/google/gdata-python-client/archive/master.zip --no-check-certificate
-mv master gdata.tar.gz
-tar xf gdata.tar.gz
-rm -f gdata.tar.gz
-cd gdata
+unzip master.zip
+rm -f master.zip
+cd gdata-python-client-master
 ls INSTALL.txt MANIFEST PKG-INFO README.txt RELEASE_NOTES.txt pydocs samples setup.py src tests
 python setup.py install
 apt-get update
 #install youtube uploader
 cd /
 wget https://github.com/nurd1n/Youtube-Upload/archive/master.zip --no-check-certificate
-mv master youtube-upload.tar.gz
-tar xf youtube-upload.tar.gz
-rm -f youtube-upload.tar.gz
-cd youtube-upload
+unzip master.zip
+rm -f master.zip
+cd Youtube-Upload-master
 ls CHANGELOG README bin examples setup.py youtube_upload
 python setup.py install
 apt-get update

@@ -46,7 +46,6 @@ unzip master.zip
 rm -f master.zip
 cd gdata-python-client-master
 python setup.py install
-apt-get update
 #install youtube uploader
 cd /
 wget https://github.com/nurd1n/Youtube-Upload/archive/master.zip --no-check-certificate
@@ -54,11 +53,9 @@ unzip master.zip
 rm -f master.zip
 cd Youtube-Upload-master
 python setup.py install
-apt-get update
 #install setup tools python
 cd /
 wget https://bootstrap.pypa.io/ez_setup.py -O - | python
-apt-get update
 #install progressbar
 cd /
 wget https://pypi.python.org/packages/source/p/progressbar2/progressbar2-2.7.3.tar.gz --no-check-certificate
@@ -66,16 +63,13 @@ tar xf progressbar2-2.7.3.tar.gz
 rm -f progressbar2-2.7.3.tar.gz
 cd progressbar2-2.7.3
 python setup.py install
-apt-get update
 #install firefox
 cd /
 sudo apt-get install firefox
-sudo apt-get update
 #install mechanize & beautifulsoup
 cd /
 easy_install mechanize
 easy_install BeautifulSoup4
-apt-get update
 #install youtube-dl
 easy_install youtube-dl
 #install bleachbit as ccleaner

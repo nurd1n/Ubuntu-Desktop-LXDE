@@ -71,7 +71,8 @@ cd /
 easy_install mechanize
 easy_install BeautifulSoup4
 #install youtube-dl
-easy_install youtube-dl
+sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/bin/youtube-dl
+sudo chmod a+x /usr/bin/youtube-dl
 #install bleachbit as ccleaner
 apt-get install bleachbit
 #install gedit

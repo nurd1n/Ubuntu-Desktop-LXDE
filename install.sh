@@ -21,6 +21,7 @@
 cd /
 apt-get update && apt-get -y install aptitude
 apt-get install nano
+apt-get install python-setuptools
 echo "deb http://packages.x2go.org/debian squeeze main" >> /etc/apt/sources.list
 echo "deb-src http://packages.x2go.org/debian squeeze main" >> /etc/apt/sources.list
 apt-key adv --recv-keys --keyserver keys.gnupg.net E1F958385BFE2B6E

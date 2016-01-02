@@ -21,6 +21,7 @@
 cd /
 apt-get update && apt-get -y install aptitude
 apt-get install nano
+apt-get install gawk
 apt-get install python-setuptools
 echo "deb http://packages.x2go.org/debian squeeze main" >> /etc/apt/sources.list
 echo "deb-src http://packages.x2go.org/debian squeeze main" >> /etc/apt/sources.list

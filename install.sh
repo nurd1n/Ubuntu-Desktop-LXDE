@@ -16,6 +16,7 @@
 ##  - Gedit
 ##  - Terminator
 ##  - Filezilla
+##  - Exiftool
 ###########################################################################
 #install x2go
 cd /
@@ -83,6 +84,8 @@ apt-get install gedit
 apt-get install terminator
 #install filezilla
 apt-get install filezilla
+#install exiftool
+sudo apt-get install libimage-exiftool-perl
 apt-get update
 echo "########################################################################"
 echo "#################             Install Complete         #################"
